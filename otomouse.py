@@ -96,14 +96,14 @@ while True:
     box_data="box"+str(result)
     print("Box: ",box_data)
     
-    if len(hamle_list)>8:
+    if len(hamle_list)>5:
         hamle_list.clear()
         counter=0
     
-    if counter>3:
-        print(box_data)
-        #rec.record_screen(box_data)
-        time.sleep(3)
+    # if counter>3:
+    #     print(box_data)
+    #     #rec.record_screen(box_data)
+    #     time.sleep(3)
   
     
     pyautogui.click(x, y)   

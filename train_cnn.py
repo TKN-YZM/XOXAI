@@ -44,7 +44,7 @@ def onehot_labels(values):
         
 Y=onehot_labels(Y)
 
-x_Train,x_Test,y_Train,y_Test=train_test_split(X,Y,test_size=0.25,random_state=2)
+x_Train,x_Test,y_Train,y_Test=train_test_split(X,Y,test_size=0.26,random_state=42)
 
 #cnn model
 model=Sequential()
@@ -63,7 +63,7 @@ model.add(Dense(9,activation="softmax"))
 
 model.compile(loss="categorical_crossentropy",optimizer="Adam",metrics=["accuracy"])
 
-model.fit(x_Train,y_Train,epochs=100,batch_size=64)
+model.fit(x_Train,y_Train,epochs=70,batch_size=64)
 
 score_train=model.evaluate(x_Train,y_Train)
 print("Eğitim Doğruluğu: %",score_train[1]*100)
