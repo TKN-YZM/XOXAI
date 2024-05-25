@@ -30,7 +30,7 @@ Bu projeyi çalıştırmak için aşağıdaki yazılım ve kütüphanelere ihtiy
 1. **Depoyu Klonlayın:**
 
     ```bash
-    git clone https://github.com/kullanici_adi/xox-bot.git
+    git clone https://github.com/TKN-YZM/XOXAI.git
     cd xox-bot
     ```
 
@@ -42,14 +42,14 @@ Bu projeyi çalıştırmak için aşağıdaki yazılım ve kütüphanelere ihtiy
 
 3. **Modelleri İndirin veya Eğitin:**
     - Eğer hazır modelleriniz varsa, bunları `models/` klasörüne yerleştirin.
-    - Eğer modeli kendiniz eğitmek istiyorsanız, [Model Eğitimi](#model-eğitimi) bölümüne göz atın.
+    - Eğer modeli kendiniz eğitmek istiyorsanız, [Model Eğitimi](#train_cnn) bölümüne göz atın.
 
 ## Kullanım
 
 1. **Botu Başlatın:**
 
     ```bash
-    python play_xox.py
+    python otomouse.py
     ```
 
 2. **Oyun Ekranı:** Google'ın XOX oyun ekranını açın ve botun oynamasını izleyin.
@@ -58,17 +58,17 @@ Bu projeyi çalıştırmak için aşağıdaki yazılım ve kütüphanelere ihtiy
 ## Model Eğitimi
 
 1. **Veri Hazırlama:**
-   - `data/training/` ve `data/testing/` klasörlerine görüntü verilerini yerleştirin.
+   - `im3/` klasörlerine görüntü verilerini yerleştirin.
    
 2. **Modeli Eğitme:**
-   - `notebooks/` klasöründe bulunan Jupyter notebook dosyalarını kullanarak modeli eğitin.
+   - `train/` klasöründe bulunan dosyalarını kullanarak modeli eğitin.
    
-3. **Modeli Kaydetme:**
-   - Eğitilmiş modeli `models/` klasörüne kaydedin.
+3. **Hamle Kaydetme:**
+   - Eğitilmiş modeli `record/` klasörüne kaydedin.
 
 ## Katkıda Bulunanlar
 
-- **[İsim Soyisim](https://github.com/kullanici_adi)** - Proje sahibi ve geliştirici
+- **[İsim Soyisim](https://github.com/TKN-YZM)** - Proje sahibi ve geliştirici
 
 ## Lisans
 
