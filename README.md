@@ -66,10 +66,6 @@ Bu projeyi çalıştırmak için aşağıdaki yazılım ve kütüphanelere ihtiy
 3. **Hamle Kaydetme:**
    - Eğitilmiş modeli `record/` klasörüne kaydedin.
 
-## Katkıda Bulunanlar
-
-- **[İsim Soyisim](https://github.com/TKN-YZM)** - Proje sahibi ve geliştirici
-
 ## Lisans
 
 Bu proje MIT Lisansı ile lisanslanmıştır - detaylar için `LICENSE` dosyasına bakın.
